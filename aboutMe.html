@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body class="grey darken-1 row">
+    <nav class="grey darken-4 nav-extended">
+        <div id="greyNav" class="grey darken-4 nav-wrapper">
+            <div id="cornerLogo" class="brand-logo">Peter Grieve: Portfolio</div>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="greyNavLink" href="index.html">Home</a></li>
+                <li><a class="greyNavLink" href="contact.html">Contact</a></li>
+                <li class="active"><a id="leftMostLink" class="greyNavLink" href="aboutMe.html">About Me</a></li>
+            </ul>
+        </div>
+        <div class="teal lighten-1 nav-content">
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="cSharpProjects.html">C# Projects</a></li>
+                <li class="tab"><a href="c++Projects.html">C++ Projects</a></li>
+                <li class="tab"><a href="jsProjects.html">JavaScript Projects</a></li>
+                <!-- <li class="tab"><a href="JavaProjects.html">Java Projects</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+          </ul>
+
+    <div id="aboutMeBackdrop" class="container grey darken-3">
+        <div class="row">
+            <div class="col s12">
+                <h1 id="aboutMeHeader" class="teal lighten-1 col l4">
+                    About Me:
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="portraitFrame" class="col l5 valign-wrapper">
+                <img id="portrait" class="responsive-img" src="./assets/images/Me.jpg">
+            </div>
+            <div class="col l7">
+                <div id="bio" class="grey darken-4 container">
+                    <p>
+                        I was born in 1995 in the city of Waukesha, Wisconsin. I lived in Wisconsin until the age 10. In the summer of 2005, my parents
+                        and I moved to Dover, New Hampshire. I have lived in Dover ever since, attending Dover middle school
+                        and Dover High. after graduating from Dover High school, I started studying programming and computer
+                        science at NHTI, Concord's Community College under the Animation and Game Graphic Programming major.
+                        I graduated from NHTI in spring of 2017 with an Associate's degree. After graduating from NHTI, I
+                        took a wander year to travel. I visited the west coast, Canada, the United Kingdom, and France. Having
+                        completed my wander year, I have spent the last six months attending a "Coding Bootcamp" hosted by
+                        UNH. Under the Bootcamp, I have learned many new programming languages and technologies. my next
+                        ambition is to become a full-time junior developer and get some work experience. I'm very excited
+                        to see what the future has in store for me.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l6">
+                <div class=" grey darken-4 container JSProjectDesc">
+                    <p>Download Resume:</p>
+                    <a href="Resume 2018.docx" download="Resume2018">Click Here</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l12">
+                    <h1 id="aboutMeHeader" class="teal lighten-1 col l4">
+                        About this Portfolio:
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="portInfo" class="grey darken-4 col l12">
+                    <p>
+                        This web Portfolio is styled using Materialize.css. The entire portfolio can be found on my Github profile, and is live on
+                        Github Pages. This portfolio is mobile-responsive.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="portLink" class="grey darken-4 col l4">
+                    <p>Materialize.css:</p>
+                    <a href="https://materializecss.com/">https://materializecss.com/</a>
+                </div>
+                <div class="col l2"></div>
+                <div id="portLink" class="grey darken-4 col l4">
+
+                    <p>My Github Profile:</p>
+                    <a href="https://github.com/PeterGrieve">https://github.com/PeterGrieve</a>
+                </div>
+            </div>
+        </div>

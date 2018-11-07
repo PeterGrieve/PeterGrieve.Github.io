@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="app.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body class="grey darken-1 row">
+    <nav class="grey darken-4 nav-extended">
+        <div id="greyNav" class="grey darken-4 nav-wrapper">
+            <div id="cornerLogo" class="brand-logo">Peter Grieve: Portfolio</div>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="active"><a class="greyNavLink" href="index.html">Home</a></li>
+                <li><a class="greyNavLink" href="contact.html">Contact</a></li>
+                <li><a id="leftMostLink" class="greyNavLink" href="aboutMe.html">About Me</a></li>
+            </ul>
+        </div>
+        <div class="teal lighten-1 nav-content">
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="cSharpProjects.html">C# Projects</a></li>
+                <li class="tab"><a href="c++Projects.html">C++ Projects</a></li>
+                <li class="tab"><a href="jsProjects.html">JavaScript Projects</a></li>
+                <!-- <li class="tab"><a href="JavaProjects.html">Java Projects</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+          </ul>
+
+    <div id="aboutMeBackdrop" class="container grey darken-3">
+        <div class="row">
+            <div class="col l12">
+                <h1 id="aboutMeHeader" class="teal lighten-1 col l4">
+                    Welcome!
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col l1"></div>
+            <div id="javascriptInfo" class="grey darken-4 col l9">
+                <p>
+                    Thank you for visiting my web portfolio! In this portfolio, I've showcased some of my finest work.<br>                    The
+                    projects in this portfolio are divided by the primary programming language they are written in.<br> I
+                    update my portfolio often, so keep checking back for new projects!
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l12">
+                <h1 id="sectionHeader" class="teal lighten-1 col l4">
+                    <a style="color:white" href="jsProjects.html">JavaScript Projects</a>
+                </h1>
+                <img style="float: right" class="projectPic" src="./assets/images/JavaScript-logo.png"><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l1"></div>
+            <div id="javascriptInfo" class="grey darken-4 col l9">
+                <p>
+                    Javascript is the most recent programming language I have learned. I learned Javascript by taking a course through UNH.<br>                    On
+                    top of regular Javascript I have learned many of its extension technologies such as Jquery, AJAX, and
+                    React.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l12">
+                <h1 id="sectionHeader" class="teal lighten-1 col l4">
+                    <a style="color:white" href="cSharpProjects.html">C# Projects</a>
+                </h1>
+                <img style="float: right" class="projectPic" src="./assets/images/cSharp-logo.png"><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l1"></div>
+            <div id="javascriptInfo" class="grey darken-4 col l9">
+                <p>
+                    C# is the second programming language I learned. I learned how to write C# three years ago during my time at NHTI.<br>                    Throughout
+                    the courses I took at NHTI, I developed windows applications, physics simulators, and video games in
+                    C#.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l12">
+                <h1 id="sectionHeader" class="teal lighten-1 col l4">
+                    <a style="color:white" href="c++Projects.html">C++ Projects</a>
+                </h1>
+                <img style="float: right" class="projectPic" src="./assets/images/cpp_logo.png"><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col l1"></div>
+            <div id="javascriptInfo" class="grey darken-4 col l9">
+                <p>
+                    C++ is the first programming language I ever learned. I was taught how to write C++ during my first semester at NHTI four
+                    years ago.<br> Since then, I have developed small video games, data structures, and
+                    small networking apps.
+                </p>
+            </div>
+        </div>

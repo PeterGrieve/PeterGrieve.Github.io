@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>C++ Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body class="grey darken-1 row">
+  <nav class="grey darken-4 nav-extended">
+    <div id="greyNav" class="grey darken-4 nav-wrapper">
+      <div id="cornerLogo" class="brand-logo">Peter Grieve: Portfolio</div>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="greyNavLink" href="index.html">Home</a></li>
+        <li><a class="greyNavLink" href="contact.html">Contact</a></li>
+        <li><a id="leftMostLink" class="greyNavLink" href="aboutMe.html">About Me</a></li>
+      </ul>
+    </div>
+    <div class="teal lighten-1 nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="cSharpProjects.html">C# Projects</a></li>
+        <li class="tab"><a class="active" href="c++Projects.html">C++ Projects</a></li>
+        <li class="tab"><a href="jsProjects.html">JavaScript Projects</a></li>
+        <!-- <li class="tab"><a href="JavaProjects.html">Java Projects</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="aboutMe.html">About Me</a></li>
+    </ul>
+
+  <div class="container grey lighten-1">
+
+    <div class="row">
+      <div class="col l12">
+        <h1 id="javascriptHeader" class="grey darken-4 col l6">
+          C++ Projects:
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l1"></div>
+      <div id="javascriptInfo" class="grey darken-4 col s9">
+        <p>
+          All of the following applications use C++.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/rpg.jpg"><br>
+      </div>
+      <div class="col l4">
+        <a class="teal lighten-1 JSProjectHead">RPG Inventory</a><br>
+        <a class="grey darken-1 repoLink" href="RPG_Inventory.zip" download="RPG_Inventory">DownLoad</a>
+      </div>
+      <div class="col l1"></div>
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/linkedList.png"><br>
+      </div>
+      <div class="col l4">
+        <a class="teal lighten-1 JSProjectHead">Linked List</a><br>
+        <a class="grey darken-1 repoLink" href="LinkedList.zip" download="LinkedList">Download</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>The RPG Inventory is a console application written in C++.<br> This is one of the first programs I ever wrote.<br>            The
+            app allows you to manage the inventory of a Fantasy Role-playing Game.<br> You can add weapons and potions to
+            your inventory, use them, remove them, etc.<br> This program was originally developed in Visual studio 2013 and
+            has been updated to run in Visual Studio 2017.<br> Download the zip file, extract it, open it in visual studio,
+            and debug it to see it in action!
+          </p>
+        </div>
+      </div>
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>This program is a basic Linked List console application written in C++.<br> I wrote this program in under 90
+            minutes for an exam and received an A+.<br> This program was originally developed in Visual studio 2015 and has
+            been updated to run in Visual Studio 2017.<br> Download the zip file, extract it, open it in visual studio, and
+            debug it to see it in action!
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

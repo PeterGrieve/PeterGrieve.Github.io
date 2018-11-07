@@ -1,0 +1,288 @@
+
+/* Header/Navbar styles */
+
+
+ 
+    #cornerLogo{
+
+        margin-left: 0px;
+        padding: 5px;
+        font-size: 16px;
+
+        }
+
+        .greyNavLink{
+    
+            float: left;
+            font-size: 8px;
+            margin-top: 15px;
+            margin-left: 25px;
+            width: 35px;
+            border-style: solid;
+            border-top-width: 0px;
+            border-bottom-width:0px;
+            border-right-width: 0px;
+            border-left-width: 1px;
+            border-color: white;
+        
+        }
+
+        #greyNav{
+    
+            margin-bottom: 25px;
+        
+        }
+
+
+
+@media screen and (min-width: 1050px) {
+
+#cornerLogo{
+
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 50px;
+    }
+    
+    #greyNav{
+    
+        margin-bottom: 25px;
+    
+    }
+    
+    .greyNavLink{
+    
+        font-size: 20px;
+        margin-top: 15px;
+        width: 175px;
+        border-style: solid;
+        border-top-width: 0px;
+        border-bottom-width:0px;
+        border-right-width: 0px;
+        border-left-width: 1px;
+        border-color: white;
+    
+    }
+
+}
+
+/* Body styles */
+
+#aboutMeBackdrop{
+
+    padding: 30px;
+    height:100%;
+
+}
+
+#aboutMeHeader{
+
+    padding:20px;
+    border-style: solid;
+    border-color: teal;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    font-size: 40px;
+    margin-top: 21px;
+
+}
+
+#bio{
+
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+    float: right;
+
+}
+
+
+
+#portInfo{
+
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+
+}
+
+#portLink{
+
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#portraitFrame{
+
+    height:600px;
+}
+
+#portrait{
+
+    
+    margin-top: 150px;
+    margin-bottom: 30px;
+    height: 250px;
+    width: 350px;
+    transform: rotate(90deg);
+    float: left;
+    border-style: solid;
+    border-width: 6px;
+    border-color: Black;
+    border-radius: 25px;
+
+}
+
+#javascriptHeader{
+
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+
+}
+
+#javascriptInfo{
+
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+    margin-bottom: 25px;
+
+}
+
+.JSProjectDesc{
+
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    float: left;
+    text-align: center;
+
+
+}
+
+.JSProjectHead{
+
+    padding:20px;
+    border-style: solid;
+    border-color: teal;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    width: 250px;
+    border-radius: 25px;
+    
+}
+
+
+
+#musixTubeHead{
+
+    padding:20px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    width: 250px;
+    border-radius: 25px;
+
+
+}
+
+#podSpotHead{
+
+    padding:20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    width: 250px;
+    border-radius: 25px;
+
+}
+
+.projectPic{
+
+    height:200px;
+    Width:200px;
+    z-index: -1;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 25px;
+    float: left;
+
+}
+
+.repoLink{
+
+    padding:10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+#sectionHeader{
+
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: teal;
+    border-radius: 25px;
+
+}
+
+

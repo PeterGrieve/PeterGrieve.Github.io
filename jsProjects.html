@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JavaScript Projects</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="app.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body class="grey darken-1 row">
+  <nav class="grey darken-4 nav-extended">
+    <div id="greyNav" class="grey darken-4 nav-wrapper">
+      <div id="cornerLogo" class="brand-logo">Peter Grieve: Portfolio</div>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="greyNavLink" href="index.html">Home</a></li>
+        <li><a class="greyNavLink" href="contact.html">Contact</a></li>
+        <li><a id="leftMostLink" class="greyNavLink" href="aboutMe.html">About Me</a></li>
+      </ul>
+    </div>
+    <div class="teal lighten-1 nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="cSharpProjects.html">C# Projects</a></li>
+        <li class="tab"><a href="c++Projects.html">C++ Projects</a></li>
+        <li class="tab"><a class="active" href="jsProjects.html">JavaScript Projects</a></li>
+        <!-- <li class="tab"><a href="JavaProjects.html">Java Projects</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="aboutMe.html">About Me</a></li>
+    </ul>
+
+  <div class="container grey lighten-1">
+
+    <div class="row">
+      <div class="col l12">
+        <h1 id="javascriptHeader" class="grey darken-4 col l6">
+          JavaScript Projects:
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l1"></div>
+      <div id="javascriptInfo" class="grey darken-4 col l9">
+        <p>
+          The following web applications all use javascript in some capacity. many of them also use jQuery and AJAX.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l12">
+        <h1 id="sectionHeader" class="teal lighten-1 col l4">
+          Group Projects:
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/mooncat.jpg"><br>
+      </div>
+      <div class="col l4">
+        <a class="purple darken-3" id="musixTubeHead" href="https://www.startwithaskateboard.com/MusixTube/">MusixTube</a><br>
+        <a class="grey darken-1 repoLink" href="https://github.com/crussell84/MusixTube">Github Repository</a>
+      </div>
+      <div class="col l1"></div>
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/podSpot.png"><br>
+      </div>
+      <div class="col l4">
+        <a class="red darken-4" id="podSpotHead" href="https://the-podspot.herokuapp.com/">Podspot</a><br>
+        <a class="grey darken-1 repoLink" href="https://github.com/HumanJBooF/podspot">Github Repository</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>MusixTube is a web application that allows a user to enter an artist and be presented with that artist's top
+            5 rated tracks.<br> MusixTube uses the Musixmatch API and Youtube Data API.
+          </p>
+        </div>
+      </div>
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>PodSpot is an app that generates a list of podcasts based on a user's search terms.<br> PodSpot uses several
+            technologies, most notably Node.js and Handlebars.js.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6">
+        <h1>
+          Project 3, Coming Soon...
+        </h1>
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>my capstone project will be posted here in about a month</p>
+        </div>
+      </div>
+      <div class="col l6"></div>
+    </div>
+
+    <div class="row">
+      <div class="col l12">
+        <h1 id="sectionHeader" class="teal lighten-1 col l4">
+          Solo Projects:
+        </h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/psychicGame.png"><br>
+      </div>
+      <div class="col l4">
+        <a class="teal lighten-1 JSProjectHead" href="https://petergrieve.github.io/Psychic-Game/">Psychic Game</a><br>
+        <a class="grey darken-1 repoLink" href="https://github.com/PeterGrieve/Psychic-Game">Github Repository</a>
+      </div>
+      <div class="col l1"></div>
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/crystalCollecter.png"><br>
+      </div>
+      <div class="col l4">
+        <a class="teal lighten-1 JSProjectHead" href="https://petergrieve.github.io/unit-4-game/">Crystal Collecter</a><br>
+        <a class="grey darken-1 repoLink" href="https://github.com/PeterGrieve/unit-4-game">Github Repository</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>In the psychic game, you have ten chances to guess which letter the game is thinking of.</p>
+        </div>
+      </div>
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>In Crystal Collector, you are given a total and four types of crystals. each crystal has an unknown number for
+            a value.<br> The crystals must combined to form the total given.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l1">
+        <img class="projectPic" src="./assets/images/trivia.png"><br>
+      </div>
+      <div class="col l4">
+        <a class="teal lighten-1 JSProjectHead" href="https://petergrieve.github.io/TriviaGame/">Trivia Game</a><br>
+        <a class="grey darken-1 repoLink" href="https://github.com/PeterGrieve/TriviaGame">Github Repository</a>
+      </div>
+      <div class="col l1">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col l6">
+        <div class=" grey darken-4 container JSProjectDesc">
+          <p>This is a simple history quiz that must be completed before the timer runs out.</p>
+        </div>
+      </div>
+      <div class="col l6"></div>
+    </div>
+
+</body>
+
+</html>
