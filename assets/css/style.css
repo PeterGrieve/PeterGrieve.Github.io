@@ -1,8 +1,6 @@
 
 /* Header/Navbar styles */
 
-
- 
     #cornerLogo{
 
         margin-left: 0px;
@@ -223,6 +221,22 @@
     padding:20px;
     border-style: solid;
     border-color: black;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    width: 250px;
+    border-radius: 25px;
+
+}
+
+#bukitHead{
+
+    padding:20px;
+    border-style: solid;
+    border-color: white;
     border-width: 1px;
     text-align: center;
     color: white;
